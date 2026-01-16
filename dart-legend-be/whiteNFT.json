@@ -1,0 +1,11 @@
+{
+  "name": "The Original Dart #0",
+  "description": "An NFT of Legendary tier in the Dart Legends collection.",
+  "image": "https://gateway.pinata.cloud/ipfs/bafkreigdg3sbrsjy6ljyz5r3mypktaxotq3kebkkkm2dybltwgu65fl2za",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Legendary"
+    }
+  ]
+}

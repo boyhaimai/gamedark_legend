@@ -1,0 +1,75 @@
+export { default as logo } from "./images/logo.png";
+export { default as BGGame } from "./images/bgGame.jpg";
+export { default as LogoDart2 } from "./images/LogoDart2.png";
+
+export { default as TonIcon } from "./images/tonIcon.png";
+export { default as Rank1 } from "./images/rank1.png";
+export { default as Rank2 } from "./images/rank2.png";
+export { default as Rank3 } from "./images/rank3.png";
+export { default as CoinStack } from "./images/coinStack.png";
+export { default as Rewards } from "./images/rewards.png";
+export { default as Rewards7 } from "./images/rewards7.png";
+export { default as Like } from "./images/like.png";
+export { default as Rotation } from "./images/rotation.png";
+export { default as yellowNinja } from "./images/yellowNinja.png";
+export { default as redNinja } from "./images/redNinja.png";
+export { default as whiteNinja } from "./images/whiteNinja.png";
+export { default as knife1 } from "./images/redDarts.png";
+export { default as knife2 } from "./images/dart2.png";
+export { default as inviteFriend } from "./svg/inviteFriend.svg";
+export { default as inviteFriend_Pre } from "./svg/inviteFriend_Pre.svg";
+export { default as WalletButton } from "./svg/walletButton.svg";
+export { default as User } from "./svg/user.svg";
+export { default as twitter } from "./svg/twitter.svg";
+export { default as telegram } from "./svg/telegram.svg";
+export { default as youtube } from "./svg/youtube.svg";
+export { default as discord } from "./svg/discord.svg";
+export { default as facebook } from "./svg/facebook.svg";
+export { default as Right } from "./svg/right.svg";
+
+export { default as house } from "./svg/house.svg";
+export { default as close } from "./svg/close.svg";
+
+export { default as bgMusic } from "./audio/bgMusic.mp3";
+export { default as InvertoryMp3 } from "./audio/inventory.mp3";
+export { default as HistoryMp3 } from "./audio/history.mp3";
+export { default as MissionMp3 } from "./audio/mission.mp3";
+export { default as NFTMp3 } from "./audio/nft.mp3";
+export { default as ReferalMp3 } from "./audio/referal.mp3";
+export { default as RankMp3 } from "./audio/rank.mp3";
+export { default as WalletMp3 } from "./audio/wallet.mp3";
+export { default as Dart } from "./audio/dart.mp3";
+
+export { default as newBG } from "./images/new-BG.jpg";
+export { default as inventory } from "./images/inventory.png";
+export { default as history } from "./images/history.png";
+export { default as mission } from "./images/mission.png";
+export { default as referral } from "./images/referral.png";
+export { default as rank } from "./images/rank.png";
+export { default as wallet } from "./images/wallet.png";
+export { default as nftStore } from "./images/nftStore.png";
+export { default as balanceLogo } from "./svg/balanceLogo.svg";
+export { default as balanceLogo2 } from "./svg/balanceLogo2.svg";
+export { default as website } from "./svg/balanceLogo2.svg";
+export { default as logoDartLegends } from "./images/logoDartLegends.png";
+export { default as victory } from "./images/victoryModal.jpg";
+export { default as defeat } from "./images/defeatModal.png";
+export { default as CoinStack2 } from "./images/CoinStack2.png";
+export { default as CoinStack3 } from "./images/CoinStack3.png";
+export { default as neonPink } from "./images/neon-pink-site.png";
+export { default as neonBlue } from "./images/neon-blue-site.png";
+export { default as bgWheel } from "./images/bg-wheel.png";
+export { default as topBgGame } from "./images/top-bg-game.png";
+export { default as Objects } from "./images/objects.png";
+export { default as Objects_red } from "./images/objectsRed.png";
+export { default as banner } from "./images/banner.png";
+export { default as versus } from "./images/versus.png";
+export { default as bubber } from "./images/bubber.png";
+export { default as sgc } from "./images/sgc.webp";
+
+export { default as arrowLeft } from "./svg/arrow-left.svg";
+export { default as Copy } from "./svg/copy.svg";
+export { default as checkLine } from "./svg/check-line.svg";
+export { default as arrowRight } from "./svg/arrow-right-s-line.svg";
+
+export { default as logoGif } from "./images/logo-gif.gif";

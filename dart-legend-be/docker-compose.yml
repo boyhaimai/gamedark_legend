@@ -1,0 +1,17 @@
+services:
+  dart-legend:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    env_file:
+      - .env
+    ports:
+      - 3579:3579
+      - 8080:8080
+    networks:
+      - dart-legend
+    restart: unless-stopped
+
+networks:
+  dart-legend:
+    driver: bridge

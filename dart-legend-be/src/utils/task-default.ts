@@ -1,0 +1,60 @@
+import { SocialType } from 'src/database/models/mission.model';
+
+export const taskDefault = [
+  {
+    key: 'JOIN_OUR_CHANNEL',
+    name: 'Join our channel',
+    point: 500,
+    uri: 'https://t.me/dartslegend',
+    avatar: null,
+    social: SocialType.TELEGRAM,
+  },
+  {
+    key: 'JOIN_TELEGRAM_GROUP',
+    name: 'Join Telegram group',
+    point: 500,
+    uri: 'https://t.me/dartslegend_community',
+    avatar: null,
+    social: SocialType.TELEGRAM,
+  },
+  {
+    key: 'JOIN_DISCORD_GROUP',
+    name: 'Join discord group',
+    point: 500,
+    uri: 'https://discord.gg/v2ZAcyMt',
+    avatar: null,
+    social: SocialType.DISCORD,
+  },
+  {
+    key: 'SUBSCRIBE_YOUTUBE',
+    name: 'Subscribe Youtube',
+    point: 500,
+    uri: 'https://www.youtube.com/@DartLegends',
+    avatar: null,
+    social: SocialType.YOUTUBE,
+  },
+  {
+    key: 'SHARE_TWITTER',
+    name: 'Share posts on X',
+    point: 500,
+    uri: 'https://x.com/DartLegends12',
+    avatar: null,
+    social: SocialType.TWITTER,
+  },
+  {
+    key: 'SHARE_FACEBOOK',
+    name: 'Share posts on Facebook',
+    point: 500,
+    uri: 'https://www.facebook.com/profile.php?id=61577388063142',
+    avatar: null,
+    social: SocialType.FACEBOOK,
+  },
+  {
+    key: 'VISIT_WEBSITE',
+    name: 'Visit website',
+    point: 500,
+    uri: 'http://dartlegends.tech/',
+    avatar: null,
+    social: SocialType.WEBSITE,
+  },
+];

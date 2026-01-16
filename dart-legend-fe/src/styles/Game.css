@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.game-container {
+  text-align: center;
+  /* padding: 20px; */
+  font-family: "Poppins", sans-serif;
+  /* background: #ada996;
+  background: -webkit-linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); */
+  /* background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996); */
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #000000;
+  width: 100%;
+  max-width: 500px;
+}
+
+.game-info p {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.game-canvas {
+  /* background: rgba(255, 255, 255, 0.5); */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+  /* margin: 20px 0; */
+  cursor: pointer;
+  /* border: 1px solid #000000; */
+}
+
+/* Animation cho dao khi ném */
+@keyframes throwKnife {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-410px) rotate(360deg);
+  }
+}
+
+.knife-throwing {
+  animation: throwKnife 0.5s linear forwards;
+}
+
+/* Animation cho vòng xoay */
+@keyframes rotateTarget {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.target-rotating {
+  animation: rotateTarget 4s linear infinite;
+}
+
+/* Animation cho dao khi cắm vào mục tiêu */
+@keyframes stickKnife {
+  0% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.knife-sticking {
+  animation: stickKnife 0.3s ease-out;
+}
+
+.throw-button {
+  background: #668ad8;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-family: "Poppins", sans-serif;
+  border-bottom: solid 4px #627295;
+}
+
+.throw-button:hover {
+  transform: translateY(-2px);
+}
+
+.throw-button:active {
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+.throw-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  border-bottom: none;
+}
+
+/* Hiệu ứng rung khi game over */
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+.game-over {
+  animation: shake 0.5s ease-in-out;
+}

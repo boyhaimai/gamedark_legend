@@ -1,0 +1,15 @@
+export const ROUTE_PATH = {
+  HOME: "/",
+  CREATE_ROOM: "/create-room",
+  WALLET: "/wallet",
+  NFT: "/store",
+  DART: "/dart-legends",
+  LOADING_GAME: "/loading-game",
+  FRIENDS: "/friends",
+  RANK: "/rank",
+  QUESTS: "/quests",
+  INVENTORY: "/inventory",
+  HISTORY: "/history",
+  INVITATION_LIST: "/invitation-list",
+  CHAT: "/chat",
+};

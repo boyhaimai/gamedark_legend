@@ -1,0 +1,16 @@
+ {
+    "apps": [
+      {
+        "name": "cron-program",
+        "script": "node",
+        "args": "./dist/cron-program/program.service.js",
+        "instances": 1,
+        "watch": false,
+        "autorestart": true,
+        "env": {
+          "NODE_APP_INSTANCE": "scan"
+        }
+      }
+    ]
+  }
+  

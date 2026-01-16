@@ -1,0 +1,19 @@
+{
+  "description": "An NFT dart from the Dart Legends collection. Each dart belongs to a tiered class: Common, Rare, or Legendary, and carries its own legacy in the game.",
+  "name": "Dart Legends Collection",
+  "image": "https://gateway.pinata.cloud/ipfs/bafkreib64b6pemfl7vlz3avkdsbdrai7kuquilzwva3nfisf6tjcczmdia",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "Legendary"
+    }
+  ]
+}

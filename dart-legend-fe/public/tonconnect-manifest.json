@@ -1,0 +1,15 @@
+{
+  "url": "http://localhost:5173/",
+  "name": "Dart-Legends",
+  "iconUrl": "https://ton.vote/logo.png",
+  "features": [
+    {
+      "name": "SendTransaction"
+    }
+  ],
+  "items": [
+    {
+      "name": "ton_addr"
+    }
+  ]
+}
