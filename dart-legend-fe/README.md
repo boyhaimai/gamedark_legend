@@ -137,9 +137,9 @@ VITE_TELEGRAM_LINK_BOT=https://t.me/yo
 
 ```json
 {
-  "url": "http://localhost:5173",
+  "url": "https://darklegend.mkt0.vawayai.com",
   "name": "Dart-Legends-Dev",
-  "iconUrl": "http://localhost:5173/logo.png",
+  "iconUrl": "https://darklegend.mkt0.vawayai.com/logo.png",
   "features": [{ "name": "SendTransaction" }],
   "items": [{ "name": "ton_addr" }]
 }
@@ -182,7 +182,7 @@ VITE_TELEGRAM_LINK_BOT=https://t.me/yo
 npm run dev
 ```
 
-Ứng dụng sẽ chạy tại `http://localhost:5173`
+Ứng dụng sẽ chạy tại `https://darklegend.mkt0.vawayai.com`
 
 ### 6. Build production
 

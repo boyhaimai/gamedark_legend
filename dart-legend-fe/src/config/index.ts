@@ -8,7 +8,7 @@ export type TSocketConfig = {
 
 export const config: TConfig = {
   // base_url: import.meta.env.VITE_BASE_URL || "https://api.dartlegends.tech/api",
-  base_url: import.meta.env.VITE_BASE_URL || "http://localhost:3579/api",
+  base_url: import.meta.env.VITE_BASE_URL || "https://darklegend.mkt0.vawayai.com/api",
 };
 
 export const socketConfig: TSocketConfig = {
